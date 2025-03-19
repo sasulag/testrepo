@@ -2,7 +2,7 @@
 <html lang="en">
   <body>
     <p>
-      Hello World
+      Hello <strong>W</strong>orld
     </p>
     <div> <img src="example.png" alt="nice photo"/>
   <nav>
