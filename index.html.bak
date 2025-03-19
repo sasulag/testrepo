@@ -5,8 +5,12 @@
       Hello World
     </p>
     <div> <img src="example.png" alt="nice photo"/>
-  <li>sasula</li>
-  <li>gethmin</li>
+  <nav>
+	<ul>
+		<li>sasula</li>
+		<li>gethmin</li>
+	</ul>
+  </nav>
 	</div>
   <h1> Mm Thama Sasula</h1>
   <h2><strong>S</strong>asula</h2>
