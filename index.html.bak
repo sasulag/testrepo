@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/screen.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<html lang="en">
+</head>	
   <body>
     <p>
       Hello <strong>W</strong>orld
@@ -13,7 +17,19 @@
 	</ul>
   </nav>
 	</div>
+		<div id="box1">
   <h1> Mm Thama Sasula</h1>
+		</div>
   <p><strong>S</strong>asula</p>
-  </body>
+  <div> <img Src="C:\Users\user\Desktop\IMG_E4861.jpg" alt="beach"/>
+  </div>	
+	<ol>
+		<li> sasula</li>
+		<li>sayuni</li>
+		<li>sithuka</li>
+	</ol>
+		<h2> hello</h2>
+			<p><strong>St</strong>.joseph's collage</p>
+	</body>
 </html>
+	
