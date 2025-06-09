@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Track Your Package | Courier Service</title>
+  <title>Track Your Package | Your Courier</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -23,7 +23,6 @@
       width: 80%;
       padding: 12px;
       font-size: 16px;
-      margin-top: 10px;
     }
     button {
       padding: 12px 20px;
@@ -33,13 +32,11 @@
       margin-top: 10px;
       cursor: pointer;
       font-size: 16px;
-      border-radius: 4px;
     }
     .result {
       margin-top: 20px;
       padding: 15px;
       background-color: #e2f0d9;
-      border-radius: 5px;
       display: none;
     }
   </style>
@@ -64,7 +61,7 @@
       const resultBox = document.getElementById("resultBox");
       const statusText = document.getElementById("statusText");
 
-      // Simulated tracking data
+      // Replace this with a real lookup (e.g., from Google Sheets or your database)
       const mockData = {
         "PKT123456789": "In Transit - Nairobi",
         "PKT987654321": "Delivered - Mombasa",
@@ -76,7 +73,6 @@
       } else {
         statusText.innerText = "Tracking number not found. Please check and try again.";
       }
-
       resultBox.style.display = "block";
     }
   </script>

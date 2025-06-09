@@ -5,7 +5,7 @@
 	<title> Box Example</title
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/cssbox.css">
-	<link rel="stylesheet" href="css/googlefont">
+	<link rel="stylesheet" href="css/googlefont.html">
 	
 </head>	
   <body>
