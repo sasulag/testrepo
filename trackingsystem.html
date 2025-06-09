@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,3 +79,85 @@
   </script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Track Your Package | Your Courier</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      text-align: center;
+      padding: 50px;
+    }
+    .container {
+      background: white;
+      max-width: 500px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input[type="text"] {
+      width: 80%;
+      padding: 12px;
+      font-size: 16px;
+    }
+    button {
+      padding: 12px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      margin-top: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .result {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #e2f0d9;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Track Your Package</h2>
+    <p>Enter your tracking number below:</p>
+    <input type="text" id="trackingInput" placeholder="e.g., PKT123456789" />
+    <br/>
+    <button onclick="trackPackage()">Track</button>
+
+    <div class="result" id="resultBox">
+      <h3>Status:</h3>
+      <p id="statusText">Loading...</p>
+    </div>
+  </div>
+
+  <script>
+    function trackPackage() {
+      const trackingNumber = document.getElementById("trackingInput").value.trim();
+      const resultBox = document.getElementById("resultBox");
+      const statusText = document.getElementById("statusText");
+
+      // Replace this with a real lookup (e.g., from Google Sheets or your database)
+      const mockData = {
+        "PKT123456789": "In Transit - Nairobi",
+        "PKT987654321": "Delivered - Mombasa",
+        "PKT000112233": "Awaiting Pickup - Kisumu"
+      };
+
+      if (mockData[trackingNumber]) {
+        statusText.innerText = mockData[trackingNumber];
+      } else {
+        statusText.innerText = "Tracking number not found. Please check and try again.";
+      }
+      resultBox.style.display = "block";
+    }
+  </script>
+</body>
+</html>
+>>>>>>> 7a0aa708a55de55ced8054a841f2bb608a619c04
