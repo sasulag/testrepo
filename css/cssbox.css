@@ -1,6 +1,14 @@
-#box1 	{
-	background-color: #888888;
-	padding: 30px;
-	border: 10px dashed red;
-	font-size: 30px:
+
+
+#box1 {
+	background-color: #b98d26;
+	padding: 60px;
+	border: 15px dashed red;
+	font-size: 50px:
+}
+#box2 {
+	background-color:#52d01f;
+	padding: 5px;
+	border: 5px dashed #b98d26;
+	font-size: 20px;
 }
